@@ -377,7 +377,8 @@ class ConvexAppBarState extends State<ConvexAppBar>
   TabController? _controller;
 
   int _previousTimestamp = 0;
-  static const _TRANSITION_DURATION = 150;
+  // static const _TRANSITION_DURATION = 150;
+  static const _TRANSITION_DURATION = 10;
 
   @override
   void initState() {
